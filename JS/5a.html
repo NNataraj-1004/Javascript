@@ -1,0 +1,133 @@
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is Exercise</title>
+  </head>
+  <body>
+    <script>
+      const name='Nataraj N';
+      console.log(name+'\n',typeof(name));
+      let coffee=5;
+      let bagels=2*3;
+      let soup=9;
+      let cost=(coffee+bagels+soup);
+      console.log(`Cost of food:${cost}`);
+      let tax=Math.round(cost*0.1)
+      console.log(`Tax(10%):$${tax}`)
+      let totalcost=cost+tax;
+      console.log(`Total cost:$${totalcost}`)
+       
+    </script>
+
+  </body>-->
+
+
+  <!--Calculator-->
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+  <p>
+
+    <button onclick=                                
+    "calculation=calculation+1;
+    console.log(calculation);
+    " >1</button>
+
+    <button onclick=
+    "calculation+='2';console.log(calculation);
+    ">2</button>
+
+    <button onclick=
+    "calculation+='3';console.log(calculation);
+    ">3</button>
+
+    <button onclick=
+    "calculation+=' + ';
+    console.log(calculation);
+    ">+</button>
+
+  </p>
+
+  <p>
+
+    <button onclick=
+    "calculation+='4';
+    console.log(calculation);
+    " >4</button>
+
+    <button onclick=
+    "calculation+='5';console.log(calculation);
+    ">5</button>
+
+    <button onclick=
+    "calculation+='6';console.log(calculation);
+    ">6</button>
+
+    <button onclick=
+    "calculation+=' - ';
+    console.log(calculation);
+    ">-</button>
+
+  </p>
+
+  <p>
+
+    <button onclick=
+    "calculation+='7';
+    console.log(calculation);
+    " >7</button>
+
+    <button onclick=
+    "calculation+='8';console.log(calculation);
+    ">8</button>
+
+    <button onclick=
+    "calculation+='9';console.log(calculation);
+    ">9</button>
+
+    <button onclick=
+    "calculation+=' * ';
+    console.log(calculation);
+    ">*</button>
+
+  </p>
+  
+  <p>
+
+    <button onclick=
+    "calculation+='0';
+    console.log(calculation);
+    " > 0 </button>
+
+    <button onclick=
+    "calculation+='.';console.log(calculation);
+    "> . </button>
+
+    <button onclick="
+    calculation=eval(calculation);
+    console.log(calculation);
+    "> = </button>
+
+    <button onclick=
+    "calculation+=' / ';console.log(calculation);
+    "> / </button>
+
+  </p>
+  <p>
+
+    <button onclick="calculation='';
+    console.log(calculation);">
+    Clear</button>
+
+  </p>
+
+  <script>
+    let calculation = '';   
+  </script>
+
+  </body>
+  </html>

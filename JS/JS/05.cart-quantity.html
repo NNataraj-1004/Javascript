@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cart-quantity</title>
+  </head>
+  <body>
+
+    <button onclick="
+      console.log(`Cart quantity:${cartQuantity }`)
+    ">Show Quantity</button>
+<!---->
+    <button onclick="
+    //cartQunatity=cartQuantity+1 is written as cartQuantity+=1 as well as cartQuantity++:
+      cartQuantity++;
+      console.log(`Cart quantity:${cartQuantity }`);
+    ">Add to Cart</button>
+     
+    <button onclick="
+      cartQuantity+=2;
+      console.log(`Cart quantity:${cartQuantity}`)
+    ">+2</button>
+
+    <button onclick="
+    cartQuantity+=3;
+    console.log(`Cart quantity:${cartQuantity}`)
+    ">+3</button>
+
+    <button onclick="
+    cartQuantity+=4;
+    console.log(`Cart quantity:${cartQuantity}`)
+    ">+4</button>
+
+    <button onclick="
+    cartQuantity+=5;
+    console.log(`Cart quantity:${cartQuantity}`)
+    ">+5</button>
+
+    <button onclick="
+    cartQuantity--;
+    console.log(`Cart quantity:${cartQuantity}`)
+    ">Remove from cart</button>
+
+
+    <button onclick="
+    cartQuantity= 0;
+    console.log('Cart was reset.');
+    console.log(`Cart quantity:${cartQuantity}`)
+    ">Reset Cart</button>
+
+      <script>
+        /*camel case is used for naming variable - use caps for every word followed by frst word*/
+       let cartQuantity = 0;
+      </script>
+  </body>
+</html>
+  

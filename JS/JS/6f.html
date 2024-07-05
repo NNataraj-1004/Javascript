@@ -1,0 +1,21 @@
+<!--coin toss flip-->
+  
+  <!DOCTYPE html>
+<html>
+  <head>  
+  </head>
+  <body>
+    <script>
+      const ran=Math.random();
+      let result='';
+      if(ran<0.5){
+        result='Heads';
+        console.log('Heads');
+      }else{
+        result='Tails'
+        console.log('Tails');}
+      const guess='Heads';
+      console.log(guess===result?'You win!':'You Lose!');
+    </script>
+  </body>
+</html>
